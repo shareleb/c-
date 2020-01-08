@@ -27,11 +27,13 @@ int main()
 	/*char a = 'A';
 	cout << tolower(a) << endl;;
 	*/
-	int i = 10;
-	int j = 10;
-	i = j = ++j;
+	vector<int>v;
+	v.push_back(1);
+	v.push_back(2);
+	v.push_back(3);
+	cout<<v.end() - v.begin();
 	
-	cout << i<<"   "<<j<< endl;
+	
 
 	system("pause");
 	return 0;
